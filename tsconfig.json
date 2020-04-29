@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "acme-shared": [
+        "dist/acme-shared"
+      ],
+      "acme-shared/*": [
+        "dist/acme-shared/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
